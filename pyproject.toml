@@ -1,0 +1,15 @@
+[project]
+name = "pydanticcourse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mypy>=1.15.0",
+    "pandantic>=1.0.0",
+    "pandas>=2.2.3",
+    "pydantic[email]>=2.10.6",
+    "python-dateutil>=2.9.0.post0",
+    "pytz>=2025.1",
+    "requests>=2.32.3",
+]
